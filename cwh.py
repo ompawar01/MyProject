@@ -79,7 +79,7 @@ class MainThread(QThread):
             while True: 
                 self.query =self.takeCommand().lower()
 
-                #Logic for executing tasks based on query
+                
                 
                 
                 if 'wikipedia' in self.query:
